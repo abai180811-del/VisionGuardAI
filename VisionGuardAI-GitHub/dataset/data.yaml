@@ -1,0 +1,10 @@
+# train.py resolves this root relative to this YAML, independently of working directory.
+path: .
+train: images/train
+val: images/val
+test: images/test
+nc: 3
+names:
+  0: child
+  1: window
+  2: windowsill
